@@ -307,11 +307,10 @@ PERFORMANCE OF THIS SOFTWARE.
   align-items: center;
   flex-direction: column;
   text-transform: uppercase;
-  height: calc(100% - 2.5rem);
+  height: calc(100% - 5rem);
   gap: 0.75rem;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   background-color: ${J.white};
-
   h1 {
     font-size: 40px;
     font-weight: 600;
@@ -323,7 +322,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
     }
   }
-`,n1=()=>{zo();const{mobile:e}=ws();return rn(e1,{children:[j(fh,{}),rn(t1,{children:[j(fu,{to:"/",style:({isActive:t})=>gu(t),children:j("h1",{children:"home"})}),ch.map(t=>j(fu,{to:`/${t}`,style:({isActive:n})=>gu(n,e),children:j("h1",{children:t})}))]})]})},r1=Ie.main`
+`,n1=()=>{zo();const{mobile:e}=ws();return rn(e1,{children:[j(fh,{}),rn(t1,{children:[j(fu,{to:"/",style:({isActive:t})=>gu(t,e),children:j("h1",{children:"home"})}),ch.map(t=>j(fu,{to:`/${t}`,style:({isActive:n})=>gu(n,e),children:j("h1",{children:t})}))]})]})},r1=Ie.main`
   padding: 0.75rem;
   display: flex;
   flex-direction: column;
