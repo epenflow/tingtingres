@@ -189,7 +189,7 @@ PERFORMANCE OF THIS SOFTWARE.
     font-weight: 600;
     text-transform: uppercase;
     &:before {
-      content: "work with us";
+      content: "work with us?";
     }
   }
 
