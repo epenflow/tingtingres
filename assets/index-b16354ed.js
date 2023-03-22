@@ -307,7 +307,7 @@ PERFORMANCE OF THIS SOFTWARE.
   align-items: center;
   flex-direction: column;
   text-transform: uppercase;
-  height: calc(100% - 5rem);
+  height: calc(100% - 10rem);
   gap: 0.75rem;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   background-color: ${J.white};
